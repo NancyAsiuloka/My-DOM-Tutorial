@@ -169,6 +169,7 @@ searchBar.addEventListener('keyup', e => {
         if(title.toLowerCase().indexOf(term) != -1){
             book.style.display = 'block';
         } else {
+            // hide book
             book.style.display = 'none';
         }
     });

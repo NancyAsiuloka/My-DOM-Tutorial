@@ -181,6 +181,7 @@ if(e.target.tagName == "LI"){
     const targetPanel = document.querySelector(e.target.dataset.target);
     panels.forEach(panel => {
         if(panel == targetPanel){
+            // added class-list
             panel.classList.add('active');
         } else{
             panel.classList.remove('active');
